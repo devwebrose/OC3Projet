@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap');
+
 
 body {
     margin: 0;
@@ -7,7 +7,6 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Fira Sans", sans-serif;
 }
 
 a,
@@ -48,7 +47,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -94,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/convertis/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -272,7 +271,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .row-no-gutters {
@@ -441,6 +440,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size : large;
+    font-weight: bold;
 }
 
 .mg-lg {
@@ -657,6 +658,21 @@ a {
     color: #575757!important;
 }
 
+h4{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+}
+
+.realise{
+    font-size: medium;
+    font-weight: ;
+}
+
 .container {
     max-width: 1000px;
 }
@@ -677,10 +693,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -720,8 +732,6 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -740,6 +750,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: medium;
 }
 
 .portfolio-thumb {
@@ -751,6 +762,11 @@ h4 {
     margin-top: 50px;
 }
 
+.images{
+    display: flex;
+    justify-content: space-between;
+    border: pink solid;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -778,7 +794,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -821,11 +837,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/convertis/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/convertis/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
