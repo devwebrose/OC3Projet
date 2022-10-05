@@ -721,6 +721,12 @@ label{
     margin-bottom: 30px;
 }
 
+.middle img{
+    border: red solid;
+    width: 230px;
+    height: 240px;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
