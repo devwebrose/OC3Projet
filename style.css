@@ -333,7 +333,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -756,6 +756,7 @@ h3 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
 }
 
 h1 {
@@ -855,6 +856,11 @@ h4 {
 }
 
 
+.col-sm-4{
+    padding-right: 30px;
+}
+
+
 .col-sm-4, .col-sm-5 {
     text-transform: uppercase;
     font-size: medium;
@@ -921,11 +927,11 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/convertis/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img/convertis/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -1041,6 +1047,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
