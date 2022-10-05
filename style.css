@@ -671,14 +671,6 @@ h4{
     font-weight: bold;
 }
 
-p{
-    font-family: "helvetica";
-    font-weight: 400;
-    font-size: large;
-    color: #575757!important;
-    text-transform: none;
-}
-
 .footer{
     text-transform: uppercase;
     font-weight: bold;
@@ -688,9 +680,15 @@ label{
     font-weight: bold;
 }
 
-.realise{
+.realise, .description{
+    font-family: "helvetica";
+    font-weight: 400;
     font-size: medium;
+    color: #575757!important;
+    text-transform: none;
 }
+
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -808,7 +806,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background: #369f70c8;
+    background: #8A6541;
 }
 
 .tc-white {
@@ -886,7 +884,6 @@ h4 {
     text-transform: none;
     font-size: medium;
     color: white;
-    align-self:flex-start;
 }
 
 .bloc-lg{
@@ -896,7 +893,7 @@ h4 {
 
 
 .btn-atomic-tangerine {
-    background: #369f70c8;
+    background: #8A6541;
     color: #FFFFFF!important;
 }
 
@@ -914,7 +911,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    background: #369f70c8;
+    background: #8A6541;
 }
 
 .ltc-atomic-tangerine:hover {
