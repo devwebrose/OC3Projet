@@ -50,7 +50,10 @@ a:hover {
 }
 
 .bloc-sm {
+    width: 100%;
     padding: 20px 50px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
@@ -368,6 +371,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.navbar-header img{
+    width: 100%;
+    height: 45px;
 }
 
 
@@ -891,6 +899,11 @@ h4 {
 .bloc-lg {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.col-sm-6 img{
+    width: 80%;
+    height: 70%;
 }
 
 
