@@ -44,18 +44,17 @@ a:hover {
     padding-right: 0;
 }
 
+.bloc-lg {
+    padding: 100px 50px;
+}
 
 .bloc-md {
     padding: 50px;
 }
 
 .bloc-sm {
-    width: 100%;
     padding: 20px 50px;
-    margin-left: 0;
-    margin-right: 0;
 }
-
 
 .bg-center,
 .bg-l-edge,
@@ -284,10 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 #bloc-1-hero h1 {
     font-size: 40px;
@@ -372,12 +367,6 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
-.navbar-header img{
-    width: 100%;
-    height: 45px;
-}
-
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -661,6 +650,10 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+.container {
+    max-width: 1000px;
+}
+
 h1,
 h2,
 h3,
@@ -680,9 +673,25 @@ h4 {
     font-weight: bold;
 }
 
-.footer {
-    text-transform: uppercase;
-    font-weight: bold;
+.text-center p {
+    width: 80%;
+    margin: auto;
+    font-size: x-large;
+}
+
+.text-1 {
+    color: black;
+}
+
+.text-2 {
+    color: black;
+    font-style: italic;
+}
+
+
+.tight-width-whitespace {
+    max-width: 600px;
+    margin: auto auto auto auto;
 }
 
 label {
@@ -716,11 +725,6 @@ label {
     margin: auto auto auto auto;
 }
 
-.tight-width-whitespace {
-    display: flex;
-    justify-content: space-between;
-}
-
 .mid {
     width: 100%;
     margin-bottom: 30px;
@@ -729,6 +733,7 @@ label {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #333333 !important;
 }
 
 .cta-hero {
@@ -740,9 +745,14 @@ label {
     font-weight: 700;
 }
 
+.portfolio-row {
+    margin-bottom: 44px;
+    margin-top: 50px;
+}
+
 .social {
     max-width: 400px;
-    margin: 50px auto 50px auto;
+    margin: auto auto auto auto;
 }
 
 h2 {
@@ -765,10 +775,6 @@ h3 {
     justify-content: space-between;
 }
 
-h1 {
-    color: #333333 !important;
-}
-
 h4 {
     color: #333333 !important;
 }
@@ -778,9 +784,10 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
+.white p {
     color: #FFFFFF !important;
     font-size: medium;
+    margin-bottom: 15px;
 }
 
 .portfolio-thumb {
@@ -802,6 +809,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
+    font-size: medium;
     text-decoration: underline !important;
 }
 
@@ -821,10 +829,9 @@ h4 {
     color: white !important;
 }
 
-.contact {
+.end{
+    color: white;
     font-size: x-large;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .form {
@@ -896,12 +903,7 @@ h4 {
     color: white;
 }
 
-.bloc-lg {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.col-sm-6 img{
+.col-sm-6 img {
     width: 80%;
     height: 70%;
 }
@@ -984,11 +986,11 @@ h4 {
         background-attachment: scroll;
     }
 
-    .tight-width-whitespace{
+    .tight-width-whitespace {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -1036,13 +1038,13 @@ h4 {
         padding-right: 20px;
     }
 
-    .lists-2{
+    .lists-2 {
         flex-direction: row;
         padding-left: 60px;
         margin-top: 20px;
     }
 
-    .col-sm-7{
+    .col-sm-7 {
         padding-left: 50px;
     }
 
@@ -1239,7 +1241,7 @@ h4 {
         margin-bottom: 25px;
     }
 
-    .social{
+    .social {
         display: flex;
         justify-content: space-between;
     }
@@ -1250,7 +1252,7 @@ h4 {
         padding-right: 20px;
     }
 
-    .lists-2{
+    .lists-2 {
         flex-direction: row;
         padding-left: 60px;
         margin-top: 20px;
@@ -1314,42 +1316,42 @@ h4 {
         padding-right: 15px;
     }
 
-    .lists-1{
+    .lists-1 {
         flex-direction: column;
         margin-top: 20px;
     }
 
-    .lists-2{
+    .lists-2 {
         flex-direction: column;
     }
 
-    .col-sm-7{
+    .col-sm-7 {
         width: auto;
         margin-top: 20px;
         padding-left: 0;
     }
 
-    .form{
+    .form {
         margin-left: 0;
         padding-right: 10%;
     }
 
-    textarea{
+    textarea {
         width: 95%;
     }
 }
 
-@media (max-width:560px){
-    .lists-1{
+@media (max-width:560px) {
+    .lists-1 {
         flex-direction: column;
         margin-top: 20px;
     }
 
-    .lists-2{
+    .lists-2 {
         flex-direction: column;
     }
 
-    .col-sm-7{
+    .col-sm-7 {
         width: auto;
         margin-top: 20px;
         padding-left: 0;
@@ -1357,8 +1359,8 @@ h4 {
     }
 }
 
-@media (min-width: 300px) and (max-width: 460px){
-    textarea{
+@media (min-width: 300px) and (max-width: 460px) {
+    textarea {
         width: 95%;
     }
 }
