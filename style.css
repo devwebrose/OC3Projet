@@ -672,6 +672,12 @@ h4 {
     font-weight: bold;
 }
 
+.contact p{
+    color: black;
+    padding: 20px;;
+}
+
+
 .text-center p {
     width: 80%;
     margin: auto;
@@ -1028,11 +1034,6 @@ h4 {
 
     #form_1{
         padding: 20px;
-    }
-
-    .contact p{
-        color: black;
-        padding: 20px;;
     }
 
     .site-navigation {
