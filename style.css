@@ -766,6 +766,8 @@ label {
 .ending{
     font-size: medium;
     color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 h2 {
@@ -1002,7 +1004,7 @@ h4 {
     }
 
     h1,
-    h2,,
+    h2,
     h4,
     h5,
     h6,
